@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu{
+    background-color: #00AEFF;
+    width: 1920px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu p{
+    color: #181818;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h1{
+    color: #181818;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+section{
+    background-image: url(img/Group\ 19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 378px;
+    padding-top: 103px;
+    padding-left: 100px;
+}
+
+section h2{
+    color: #F9F9F9;
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+section p{
+    width: 637px;
+    color: #F9F9F9;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 26px;
+}
+
+h3{
+    color: #181818;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 69px;
+}
+
+main p{
+    color: #474747;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 17px;
+    padding-bottom: 65px;
+}
+
+main p, h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.img-cards{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.img-card{
+    width: 417px;
+    height: 302px;
+background: #EBE9EA;
+}
+
+img{
+    width: 250px;
+height: 150px;
+display: flex;
+align-items: center;
+}
+
+footer{
+    background-color: #00AEFF;
+    width: 1920px;
+    height: 60px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer p{
+    color: #181818;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+   display: flex;
+   padding-top: 18px;
+}
+
