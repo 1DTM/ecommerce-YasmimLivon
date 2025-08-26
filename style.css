@@ -140,3 +140,20 @@ footer p{
    padding-top: 18px;
 }
 
+@media (max-width:768px){
+    .img-card{
+        font-size: 0.8em;
+       }
+}
+
+@media (max-width:500px){
+    section{
+        background-image: none;
+    }
+}
+
+@media (max-width:500px){
+    footer{
+        font-size: 0.8em;
+    }
+}
